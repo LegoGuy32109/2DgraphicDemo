@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+let pixelSize = 30;
+const pixel = function(x,y,c){ctx.fillStyle=c; ctx.fillRect(x*pixelSize,y*pixelSize, pixelSize,pixelSize)}
+
+pixel(3, 3)
+pixel(3, 2, "red")
+
+function drawBorder(){
+  for(let x=0; x<c.width; x++){
+    pixel(x, 0, "black")
+  }
+}
+

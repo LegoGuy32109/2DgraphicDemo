@@ -1,4 +1,4 @@
-# [2D Graphics Demo on a <canvas>](https://legoguy32109.github.io/2DgraphicDemo/)
+# [2D Graphics Demo on a \<canvas\> (click here to see)](https://legoguy32109.github.io/2DgraphicDemo/)
 I've spent most of my time on the project trying to configure a mandlebrot set to be rendered on the canvas, and I'm excited to say that I accomplished that and highlighted it in the project. The buttons toggle the different renders on the canvas, check out the zoomed in version of the mendlebrot set! 
   
 ![image of site working](./public/siteImage.png)

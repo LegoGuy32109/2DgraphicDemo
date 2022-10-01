@@ -94,4 +94,4 @@ return (
   </>
 );
 ```
-The UI elements are powered by a React state object containing the booleans for all the individual options. Through JSX I can use an && operator to only render that button if the mandlebrot is already visible. The setVisibleInfo function passed to each button is functionally similar, where the only difference is which specific attribute they're changing and then keeping the rest of the attributes the same thanks to the spat operator `...prevInfo`.
+The UI elements are powered by a React state object containing the booleans for all the individual options. Through JSX I can use an && operator to only render that button if the mandlebrot is already visible. The setVisibleInfo function passed to each button is functionally similar, where the only difference is which specific attribute they're changing and then keeping the rest of the attributes the same thanks to the splat operator `...prevInfo`.

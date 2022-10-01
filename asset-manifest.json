@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.af806790.js",
-    "index.html": "/index.html",
-    "main.af806790.js.map": "/static/js/main.af806790.js.map"
+    "main.js": "/2DgraphicDemo/static/js/main.af806790.js",
+    "index.html": "/2DgraphicDemo/index.html",
+    "main.af806790.js.map": "/2DgraphicDemo/static/js/main.af806790.js.map"
   },
   "entrypoints": [
     "static/js/main.af806790.js"
